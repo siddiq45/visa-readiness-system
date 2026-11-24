@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "title": "Official Government Visa Issuance & Refusal Reference Statistics",
+    "sources": [
+      "U.S. Department of State - Annual Adjusted B-Visa Refusal Rates by Nationality (INA Section 214(b))",
+      "UK Home Office - Immigration System Statistics (Entry clearance visas granted outside the UK by category)",
+      "Immigration, Refugees and Citizenship Canada (IRCC) - Open Data (Study Permit and TRV Processing Statistics)"
+    ],
+    "disclaimer": "These statistics represent historical government disclosures. Actual decisions are made on a case-by-case basis by consular officers under relevant statutory authorities."
+  },
+  "countries": {
+    "India": {
+      "usa": { "b1_b2_refusal_rate": 10.9, "f1_issuance_share": 35.0, "risk_tier": "Moderate" },
+      "canada": { "study_permit_approval_rate": 62.0, "visitor_approval_rate": 68.0, "risk_tier": "Moderate" },
+      "uk": { "student_visa_grant_rate": 88.0, "visitor_visa_grant_rate": 78.0, "risk_tier": "Moderate" }
+    },
+    "China": {
+      "usa": { "b1_b2_refusal_rate": 26.6, "f1_issuance_share": 28.0, "risk_tier": "Moderate" },
+      "canada": { "study_permit_approval_rate": 84.0, "visitor_approval_rate": 82.0, "risk_tier": "Low-Moderate" },
+      "uk": { "student_visa_grant_rate": 96.0, "visitor_visa_grant_rate": 86.0, "risk_tier": "Low-Moderate" }
+    },
+    "Nigeria": {
+      "usa": { "b1_b2_refusal_rate": 50.5, "f1_issuance_share": 4.0, "risk_tier": "High" },
+      "canada": { "study_permit_approval_rate": 35.0, "visitor_approval_rate": 42.0, "risk_tier": "High" },
+      "uk": { "student_visa_grant_rate": 74.0, "visitor_visa_grant_rate": 58.0, "risk_tier": "High" }
+    },
+    "Philippines": {
+      "usa": { "b1_b2_refusal_rate": 24.3, "f1_issuance_share": 2.0, "risk_tier": "Moderate" },
+      "canada": { "study_permit_approval_rate": 64.0, "visitor_approval_rate": 66.0, "risk_tier": "Moderate" },
+      "uk": { "student_visa_grant_rate": 89.0, "visitor_visa_grant_rate": 79.0, "risk_tier": "Moderate" }
+    },
+    "Brazil": {
+      "usa": { "b1_b2_refusal_rate": 14.5, "f1_issuance_share": 3.0, "risk_tier": "Low-Moderate" },
+      "canada": { "study_permit_approval_rate": 85.0, "visitor_approval_rate": 80.0, "risk_tier": "Low-Moderate" },
+      "uk": { "student_visa_grant_rate": 94.0, "visitor_visa_grant_rate": 88.0, "risk_tier": "Low" }
+    },
+    "Other / Global Average": {
+      "usa": { "b1_b2_refusal_rate": 22.0, "f1_issuance_share": 10.0, "risk_tier": "Moderate" },
+      "canada": { "study_permit_approval_rate": 60.0, "visitor_approval_rate": 65.0, "risk_tier": "Moderate" },
+      "uk": { "student_visa_grant_rate": 86.0, "visitor_visa_grant_rate": 76.0, "risk_tier": "Moderate" }
+    }
+  },
+  "statutory_thresholds": {
+    "usa": {
+      "f1_min_funds_multiplier": 1.25,
+      "tie_to_home_country_weight": 0.40,
+      "sevis_validity_required": true
+    },
+    "canada": {
+      "study_cost_of_living_cad": 20635,
+      "pal_attestation_mandatory": true,
+      "tie_to_home_country_weight": 0.35
+    },
+    "uk": {
+      "student_points_total": 70,
+      "cas_points": 50,
+      "financial_maintenance_points": 10,
+      "english_points": 10,
+      "funds_holding_days_required": 28
+    }
+  }
+}

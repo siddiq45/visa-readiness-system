@@ -1,0 +1,64 @@
+{
+  "model_type": "RandomForestClassifier",
+  "dataset_name": "US Department of Labor OFLC Visa Dataset (EasyVisa)",
+  "training_samples": 20384,
+  "test_samples": 5096,
+  "features": {
+    "categorical": [
+      "continent",
+      "education_of_employee",
+      "has_job_experience",
+      "requires_job_training",
+      "region_of_employment",
+      "full_time_position"
+    ],
+    "numeric": [
+      "annual_wage",
+      "no_of_employees",
+      "company_age"
+    ],
+    "all_encoded": [
+      "annual_wage",
+      "no_of_employees",
+      "company_age",
+      "continent_Africa",
+      "continent_Asia",
+      "continent_Europe",
+      "continent_North America",
+      "continent_Oceania",
+      "continent_South America",
+      "education_of_employee_Bachelor's",
+      "education_of_employee_Doctorate",
+      "education_of_employee_High School",
+      "education_of_employee_Master's",
+      "has_job_experience_N",
+      "has_job_experience_Y",
+      "requires_job_training_N",
+      "requires_job_training_Y",
+      "region_of_employment_Island",
+      "region_of_employment_Midwest",
+      "region_of_employment_Northeast",
+      "region_of_employment_South",
+      "region_of_employment_West",
+      "full_time_position_N",
+      "full_time_position_Y"
+    ]
+  },
+  "metrics": {
+    "accuracy": 0.7394,
+    "f1_score": 0.8163,
+    "roc_auc": 0.7694
+  },
+  "top_feature_importances": {
+    "education_of_employee_High School": 0.2019,
+    "annual_wage": 0.145,
+    "education_of_employee_Master's": 0.081,
+    "has_job_experience_N": 0.0809,
+    "no_of_employees": 0.0738,
+    "has_job_experience_Y": 0.0657,
+    "company_age": 0.0628,
+    "education_of_employee_Bachelor's": 0.0481,
+    "continent_Europe": 0.042,
+    "education_of_employee_Doctorate": 0.0375
+  }
+}
